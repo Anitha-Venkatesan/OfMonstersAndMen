@@ -1,32 +1,37 @@
-# OfMonstersAndMen
-Bootcamp Project #1 - Group 5
-Satellite Flyover
+## Homework - Project1: Satellite Flyover
 
-Group Member:
-_ Anitha Venkatesan
-_ Tim Tanner
-_ Gene Shaver
-_ Michael Nguyen
+### Objective
+This webpage is designed to track satellite which is flying over us
+### Description
+* When I use the website, I can look for the satellite passing by my current location or I can search for the city to track     the satellite for that particular city.
+* Then we provided a satellite category to look for the particlar category.Each category is mapped with an category ID.
+* when submitting,the N2YO API calls and displays the satellite with detailed information includes satellite name and           satellite ID,elevation and azimuth(Which direction to face and elevation above the horizon in degrees)
+* Used openweather API to get the city name and viewing condition.
+* When I do a search for city,it will save my search history into local storage and the latest search city on the top
+* By using Uphere rapid API,it will give the description and provides wiki link about the satellite(Sometime the APIs is not giving the description and link,In that case,displayed as description or link not found)
+### Technologies Used
+* HTML5
+* Materialize CSS Framework
+* JQuery
+* Javascript
+### APIs used:
+* https://www.n2yo.com/api/ (2 of them)
+* https://openweathermap.org/api 
+* https://rapidapi.com/uphere.space/api/uphere-space1
+### Installation
+* `git clone git@github.com:/Anitha-Venkatesan/OfMonstersAndMen.git`
+* `cd OfMonstersAndMen`
+* Open index.html in browser
+### URL
+[Demo URL](https://anitha-venkatesan.github.io/OfMonstersAndMen/.)
+### References
+* https://materializecss.com/
+* https://www.w3schools.com/js/js_errors.asp
+* https://www.w3schools.com/js/js_debugging.asp
+* https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
+* https://www.n2yo.com/satellites/?c=52
 
-//When I use the website, I can search for satellite passing by my location
-//When I want to search for satellite, I can choose by my current location or 
-I can choose a city
-//If I choose to search by my location, it will display city name and latitude and 
-longitude when I click the Current Location button, and parse that info into the search field, then I can choose category
-//When I search by city name, I can filter sattelite by their categories
-//When I click the Submit button
-//Then it will show us city name, latitude and longitude information of that city
-//Then it will display a list of satellites flying over me
-//Then it will save search history
-//Then it will display satellite picture by category (Back log function)
-//When I click on a satellite name from the generated list
-//Then it will display info of each satellite, including Satellite name, universal ID, Viewing Conditions, Direction to look, and elevation to search for.
-//When I do a search, it will save my search history into local storage so that whenever I open the same webpage, my search history is already there.
-//When the history is saved, it will filter out duplicate cities, so it will only show one of each city name
-//When I click on a city name from the search history, it will redo that search.
 
-APIs used:
-https://www.n2yo.com/api/ (2 of them)
-https://openweathermap.org/api 
-https://rapidapi.com/uphere.space/api/uphere-space1
+
+
 
