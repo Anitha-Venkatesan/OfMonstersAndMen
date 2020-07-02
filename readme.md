@@ -24,6 +24,8 @@ This webpage is designed to track satellite which is flying over us
 * Open index.html in browser
 ### URL
 [Demo URL](https://anitha-venkatesan.github.io/OfMonstersAndMen/.)
+### Contributor
+* Anitha Venkatesan, Tim Tanner, Gene Shaver,  Michael Nguyen
 ### References
 * https://materializecss.com/
 * https://www.w3schools.com/js/js_errors.asp
