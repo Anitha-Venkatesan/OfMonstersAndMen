@@ -23,7 +23,7 @@ This webpage is designed to track satellite which is flying over us
 * `cd OfMonstersAndMen`
 * Open index.html in browser
 ### URL
-[Demo URL](https://anitha-venkatesan.github.io/OfMonstersAndMen/.)
+[Demo URL](https://anitha-venkatesan.github.io/satellite-flyover/)
 ### Contributor
 * Anitha Venkatesan, Tim Tanner, Gene Shaver,  Michael Nguyen
 ### References
